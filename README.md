@@ -22,6 +22,52 @@ The system will allow passengers to select their current location and desired de
 
 The system will use a centralized database to store station maps, facility locations, and route information. Authorized railway staff can update changes to station layouts and facility availability. The platform can also integrate with railway information services to provide relevant travel information.
 
+
+```
+          PASSENGERS / RAILWAY STAFF
+                     |
+          +----------+----------+
+          |                     |
+    Mobile Application     Digital Kiosks
+          |                     |
+          +----------+----------+
+                     |
+               USER INTERFACE
+                     |
+          +----------+----------+
+          |                     |
+    Destination Search    Accessibility
+    and Location Input    Preferences
+          |                     |
+          +----------+----------+
+                     |
+             NAVIGATION ENGINE
+                     |
+          +----------+----------+
+          |                     |
+     Route Calculation     Voice Guidance
+     and Pathfinding       and Directions
+          |                     |
+          +----------+----------+
+                     |
+              BACKEND SERVER
+                     |
+          +----------+----------+
+          |                     |
+      Station Database     Railway Data APIs
+          |                     |
+          +----------+----------+
+                     |
+        Maps, Facilities, Routes,
+        and Updated Station Information
+                     |
+             NAVIGATION RESULTS
+                     |
+       Interactive Map and Directions
+```
+
+
+
 ## Use Cases
 
 1. **Platform Navigation:** Helps passengers find their boarding and arrival platforms quickly.
